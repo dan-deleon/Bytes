@@ -226,6 +226,18 @@ header {
 /* ========== CARDS / GRIDS used by shop/events ========== */
 .grid.cards { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
 .card span.price { font-weight: 800; }
+.card-images {
+  display: flex;          /* side-by-side instead of stacked */
+  gap: 0.5rem;            /* space between front & back */
+  justify-content: center;
+}
+
+.card-images img {
+  width: 50%;             /* each image takes half the card */
+  height: auto;
+  object-fit: cover;      /* keeps them looking neat if sizes differ */
+}
+
 
 /* ========== CALENDAR (events.html) ========== */
 .calendar {
