@@ -363,7 +363,7 @@ header {
 }
 
 
-/* ======== CALENDAR: Mobile ======== */
+/* ======== CALENDAR ======== */
 @media (max-width: 768px) {
 
   .calendar {
@@ -416,20 +416,6 @@ header {
   }
 }
 
-
-/* Very small phones */
-@media (max-width: 480px) {
-  .cal-cell {
-    min-height: 75px;
-  }
-}
-
-/* Optional small-phone adjustments */
-@media (max-width: 480px) {
-  .cal-cell {
-    min-height: 80px;
-  }
-}
 
 /* ========== FOOTER ========== */
 footer {
